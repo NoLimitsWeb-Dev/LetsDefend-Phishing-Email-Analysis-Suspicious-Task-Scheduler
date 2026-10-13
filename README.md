@@ -63,9 +63,21 @@ The dashboard indicates that I am currently navigating within the Case Managemen
 
 <img width="985" height="460" alt="image" src="https://github.com/user-attachments/assets/4a5dc814-f8f8-457f-a8d4-7fd83ab9a1aa" />
 
+* Click Email Security
+* Type Sender address ```189.162.189.159``` filter, to view the email details.
+
+<img width="1893" height="618" alt="image" src="https://github.com/user-attachments/assets/44eeed4b-7240-42f0-b891-2ec242cd99a9" />
+<img width="1908" height="713" alt="image" src="https://github.com/user-attachments/assets/fb12681e-2425-431e-a117-30b800da77f0" />
+
 * Is the mail content suspicious: **Yes**
 
 * Are there any attachment: **Yes**
 
+File Name: 72c812cf21909a48eb9cceb9e04b865d
+
+Password: infected
+
 ---
+
+
 
