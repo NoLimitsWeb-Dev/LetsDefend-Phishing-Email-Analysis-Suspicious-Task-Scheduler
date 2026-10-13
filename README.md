@@ -113,18 +113,27 @@ Based on the threat intelligence Analysis, the file is Malicious.
 ### Let's Add Artifacts
 
 • Artifact 1 (Malicious File MD5 / Hash)
+	
 	• Value: 39fb27c32221134a423760c5d1f58bca4cbbcc87c891c79e20b0a22b63608eb4
+	
 	• Type: Select Hash (or SHA256) from the dropdown.
+	
 	• Comment: Malicious attachment (Material.pdf) associated with Phishing/BEC lure.
 
 • Artifact 2 (Attacker IP Address)
+	
 	• Value: 189.162.189.159
+	
 	• Type: Select IP (or IPv4 Address) from the dropdown.
+	
 	• Comment: Source SMTP IP address used to send the phishing email.
 
 • Artifact 3 (Sender Email Address)
+	
 	• Value: aaronluo@cmail.carleton.ca
+	
 	• Type: Select Email (or Mail) from the dropdown.
+	
 	• Comment: Compromised or malicious sender address.
 
 <img width="873" height="533" alt="image" src="https://github.com/user-attachments/assets/a769374d-1754-426b-b383-4ba9a61f96e2" />
@@ -164,4 +173,18 @@ The alert has been verified as a True Positive. Due to automated blocking at the
 
 ---
 
+### Click Confirm & Close
 
+* Select **True Positive**
+
+* To officially submit and close out this case (Ticket)
+
+<img width="976" height="408" alt="image" src="https://github.com/user-attachments/assets/45ee483d-d71a-4d69-a390-1bed58475073" />
+
+---
+
+### Final Result
+
+<img width="1899" height="830" alt="image" src="https://github.com/user-attachments/assets/85af7ebd-bb1c-4dc6-a994-72db052e9b57" />
+
+---
