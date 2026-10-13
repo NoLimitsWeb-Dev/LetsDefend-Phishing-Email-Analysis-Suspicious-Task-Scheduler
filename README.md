@@ -45,7 +45,27 @@ This screen highlights a critical security alert:
 
 The dashboard indicates that I am currently navigating within the Case Management section (highlighted on the left panel).
 
-Click blue **Start Playbook!** button.
+* Click blue **Start Playbook!** button.
+
+---
+
+<img width="904" height="475" alt="image" src="https://github.com/user-attachments/assets/5000e88e-9d6a-4c12-843c-77fd71aba053" />
+<img width="1180" height="419" alt="image" src="https://github.com/user-attachments/assets/af44afb7-7494-4966-8a02-2559e73f3361" />
+
+
+* When was it sent:                    21st March, 2021  12:26:57 PM
+
+* What is the email's SMTP address:    189.162.189.159
+
+* What is the sender address:          aaronluo@cmail.carleton.ca
+
+* What is the recipient address:       mark@letsdefend.io
+
+<img width="985" height="460" alt="image" src="https://github.com/user-attachments/assets/4a5dc814-f8f8-457f-a8d4-7fd83ab9a1aa" />
+
+* Is the mail content suspicious: **Yes**
+
+* Are there any attachment: **Yes**
 
 ---
 
