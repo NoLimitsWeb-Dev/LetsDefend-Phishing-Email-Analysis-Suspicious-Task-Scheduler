@@ -84,6 +84,7 @@ Password: infected
 ---
 
 <img width="855" height="510" alt="image" src="https://github.com/user-attachments/assets/a455171f-cf2a-4608-88b1-608310fabd4c" />
+<img width="1842" height="837" alt="image" src="https://github.com/user-attachments/assets/c87a6ca4-3426-43a7-8e4f-d50766bd5e11" />
 
 Based on the threat intelligence Analysis, the file is Malicious. 
 * Click Malicious button.
@@ -98,6 +99,32 @@ Based on the threat intelligence Analysis, the file is Malicious.
 
 • Contextual Phishing Lure: Code insights show the PDF masquerades as a high-value purchase order designed to act as a Business Email Compromise (BEC) or phishing lure.
 
-<img width="1842" height="837" alt="image" src="https://github.com/user-attachments/assets/c87a6ca4-3426-43a7-8e4f-d50766bd5e11" />
+---
 
+* Clicked Not Delivered
+
+<img width="985" height="319" alt="image" src="https://github.com/user-attachments/assets/183ebbdf-0291-4c37-b94b-be4e7716fd0c" />
+
+* Device Action: **Blocked**
+<img width="1118" height="587" alt="image" src="https://github.com/user-attachments/assets/a14398ef-0ddc-4429-87cc-1454f3658ab4" />
+
+---
+
+
+### Let's Add Artifacts
+
+• Artifact 1 (Malicious File MD5 / Hash)
+	• Value: 39fb27c32221134a423760c5d1f58bca4cbbcc87c891c79e20b0a22b63608eb4
+	• Type: Select Hash (or SHA256) from the dropdown.
+	• Comment: Malicious attachment (Material.pdf) associated with Phishing/BEC lure.
+
+• Artifact 2 (Attacker IP Address)
+	• Value: 189.162.189.159
+	• Type: Select IP (or IPv4 Address) from the dropdown.
+	• Comment: Source SMTP IP address used to send the phishing email.
+
+• Artifact 3 (Sender Email Address)
+	• Value: aaronluo@cmail.carleton.ca
+	• Type: Select Email (or Mail) from the dropdown.
+	• Comment: Compromised or malicious sender address.
 
