@@ -61,8 +61,6 @@ The dashboard indicates that I am currently navigating within the Case Managemen
 
 * What is the recipient address:       mark@letsdefend.io
 
-<img width="985" height="460" alt="image" src="https://github.com/user-attachments/assets/4a5dc814-f8f8-457f-a8d4-7fd83ab9a1aa" />
-
 * Click Email Security
 * Type Sender address ```189.162.189.159``` filter, to view the email details.
 
@@ -79,5 +77,27 @@ Password: infected
 
 ---
 
+* Click **Yes**
+
+* <img width="985" height="460" alt="image" src="https://github.com/user-attachments/assets/4a5dc814-f8f8-457f-a8d4-7fd83ab9a1aa" />
+
+---
+
+<img width="855" height="510" alt="image" src="https://github.com/user-attachments/assets/a455171f-cf2a-4608-88b1-608310fabd4c" />
+
+Based on the threat intelligence Analysis, the file is Malicious. 
+* Click Malicious button.
+
+### Summary of the Evidence
+
+• High Detection Rate: 30 out of 62 security vendors flagged the PDF file (Material.pdf) as malicious.
+
+• Threat Classification: It is labeled explicitly under the threat categories of ```trojan, downloader,``` and ```phishing```, with specific classifications like ```Trojan/PDF.Generic``` and ```Trojan[downloader]:PDF/Phish.Gen```.
+
+• Behavioral Red Flags: The file exhibits several highly suspicious behaviors, including direct-cpu-clock-access, detect-debug-environment, long-sleeps, and intentional text obfuscation meant to bypass automated security scanners.
+
+• Contextual Phishing Lure: Code insights show the PDF masquerades as a high-value purchase order designed to act as a Business Email Compromise (BEC) or phishing lure.
+
+<img width="1842" height="837" alt="image" src="https://github.com/user-attachments/assets/c87a6ca4-3426-43a7-8e4f-d50766bd5e11" />
 
 
