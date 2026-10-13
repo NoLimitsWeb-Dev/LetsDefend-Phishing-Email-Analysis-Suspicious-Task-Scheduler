@@ -110,7 +110,6 @@ Based on the threat intelligence Analysis, the file is Malicious.
 
 ---
 
-
 ### Let's Add Artifacts
 
 • Artifact 1 (Malicious File MD5 / Hash)
@@ -127,4 +126,42 @@ Based on the threat intelligence Analysis, the file is Malicious.
 	• Value: aaronluo@cmail.carleton.ca
 	• Type: Select Email (or Mail) from the dropdown.
 	• Comment: Compromised or malicious sender address.
+
+<img width="873" height="533" alt="image" src="https://github.com/user-attachments/assets/a769374d-1754-426b-b383-4ba9a61f96e2" />
+
+---
+
+### Analyst Note:
+
+```
+On investigation of Alert SOC172, a phishing email detection was verified. The email was sent from the external address aaronluo@cmail.carleton.ca via the source IP 189.162.189.159, targeting the internal recipient mark@letsdefend.io. The email contained a malicious PDF attachment masquerading as a purchase order.
+
+Investigation & Analysis
+
+• Attachment Verification: The attached file, Material.pdf, was analyzed using sandbox technology and threat intelligence databases.
+• Malicious Verdict: The file returned a high detection rate of 30/62 security vendors, identifying it as a Trojan Downloader / Phishing Lure designed for Business Email Compromise (BEC).
+• Behavioral Red Flags: Sandbox analysis confirmed evasion techniques, including long-sleep timers, execution environment debugging, and text obfuscation to bypass automated detection gateways.
+
+
+Impact Assessment & Mitigations
+
+• Delivery Status: According to the email gateway logs, the initial Device Action was marked as Blocked.
+• Host Telemetry: Endpoint detection logs confirm that the file did not execute on the destination host, resulting in a successful containment with no indicators of active compromise on the internal network.
+
+Indicators of Compromise (IoCs)
+
+• Sender Address: aaronluo@cmail.carleton.ca
+• Source IP: 189.162.189.159
+• File Name: Material.pdf
+• File Hash (SHA256): 39fb27c32221134a423760c5d1f58bca4cbbcc87c891c79e20b0a22b63608eb4
+
+Conclusion
+
+The alert has been verified as a True Positive. Due to automated blocking at the gateway level, no further remediation or device isolation is required for the recipient host. The case is recommended for closure.
+```
+
+<img width="996" height="481" alt="image" src="https://github.com/user-attachments/assets/10bea163-def3-41e6-8dfa-623ee04cb20c" />
+
+---
+
 
